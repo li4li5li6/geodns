@@ -6,5 +6,10 @@ pipeline {
         echo 'hi'
       }
     }
+    stage('biubiu~') {
+      steps {
+        sh 'echo "bibi"'
+      }
+    }
   }
 }
